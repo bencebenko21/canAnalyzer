@@ -7,6 +7,9 @@
 
 
 #include "init.h"
+#include "USART.h"
+#include "ADC.h"
+
 
 #ifndef MAIN_H_
 #define MAIN_H_

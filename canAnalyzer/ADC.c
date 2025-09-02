@@ -20,5 +20,5 @@ uint16_t ADC_measure(uint8_t ch)
 	ADMUX |= ch;
 	ADCSRA |= (1<<ADSC);
 	while(!(ADCSRA & (1<<ADIF)));
-	return adc;
+	return ADC;
 }

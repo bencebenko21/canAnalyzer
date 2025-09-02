@@ -5,8 +5,6 @@
  *  Author: Bence Benko
  */ 
 
-#define 
-
 #include "init.h"
 #include <avr/interrupt.h>
 

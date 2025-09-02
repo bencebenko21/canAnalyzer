@@ -5,14 +5,23 @@
  * Author : Bence Benko
  */ 
 
+#define F_CPU 8000000UL
 #include <avr/io.h>
+#include <stdio.h>
 #include "main.h"
+
 
 int main(void)
 {
-    /* Replace with your application code */
+    adc_init();
+	USART_init();
+	timerOvfInit();
+	
     while (1) 
     {
     }
 }
-
+ISR(TIMER0_OVF_vect)
+{
+	
+}

@@ -3,8 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Code/C/CAN_analyzer/newmain.c</file>
-            <file>file:/D:/Code/C/CAN_analyzer/main.c</file>
+            <file>file:/D:/Code/C/canAnalyzer/CAN.h</file>
+            <file>file:/D:/Code/C/canAnalyzer/CAN.c</file>
+            <file>file:/D:/Code/C/canAnalyzer/init.h</file>
+            <file>file:/D:/Code/C/canAnalyzer/main.c</file>
         </group>
     </open-files>
 </project-private>

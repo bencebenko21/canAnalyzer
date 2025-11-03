@@ -2,6 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/USART.h</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/ADC.c</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/ADC.h</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/USART.c</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/init.c</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/CAN.c</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/main.h</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/main.c</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/init.h</file>
+            <file>file:/C:/Users/benko/Documents/Code/C/canAnalyzer/canAnalyzer/CAN.h</file>
+        </group>
     </open-files>
 </project-private>

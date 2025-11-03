@@ -1,10 +1,3 @@
-/*
- * USART.c
- *
- * Created: 8/29/2025 1:36:38 PM
- *  Author: Bence Benko
- */ 
-
 #include <avr/io.h>
 #include "USART.h"
 
@@ -34,20 +27,18 @@ uint8_t USART_receive() // datasheet page 181
 	/* Get and return received data from buffer */
 	return UDR0;
 }
-
 void USART_transmit_string(uint8_t* str)
 {
 	
 	while(*str)
 	{
-		while (*str != '\0') {           // transmit until string ending /0
-			USART_transmit(*str);        // Transmit characters one-by-one
-			str++;                       // increment pointer, thus the character in my string
+		while (*str != '\0') {           // Addig megy?nk, am?g a string v?ge ('\0') nincs
+			USART_transmit(*str);        // Egyes?vel k?ldj?k el a karaktereket
+			str++;                       // L?p?s a k?vetkez? karakterre
 		}
 	}
 }
-/*
 void USART_transmit_number(uint8_t number)
 {
 	USART_transmit('0'+number);
-}*/
+}

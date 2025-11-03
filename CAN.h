@@ -6,6 +6,7 @@
  */ 
 
 void CAN_init(void);
+uint8_t CAN_receive(uint32_t *id, uint8_t *data);
 
 #ifndef CAN_H_
 #define CAN_H_
